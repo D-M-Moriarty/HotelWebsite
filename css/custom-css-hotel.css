@@ -1,0 +1,500 @@
+.navbar {
+	border-radius: 0;
+	background-color:  #16262e;
+	opacity: 
+}
+
+#bootstrap-overrides .nava:link{ /*Change to active*/
+	box-shadow: inset 0 -3px #e7b315;
+	margin-left: 1em;
+}
+
+.navbar-brand img{
+	width: 75%;
+}
+
+#bootstrap-overrides .navbar-nav{
+	margin-top: 1.6em;
+	padding: 0;
+}
+
+#bootstrap-overrides .nav{
+	color: #fff;
+}
+
+#bootstrap-overrides .dropdown-menu, 
+#bootstrap-overrides .dropdown-menu a,
+#bootstrap-overrides .dropdown-header{
+	background-color:  #16262e;
+	color: #fff;
+}
+
+@media screen and (max-width: 750px){
+
+	#bootstrap-overrides .navbar-collapse{
+	margin-top: 5em;
+	}
+
+	.navbar-brand img{
+			width: 45%;
+	}
+
+	#bootstrap-overrides .carousel {
+		margin-top: 2em;
+	}
+
+	#bootstrap-overrides .mg-best-rooms img{
+		margin-top: 2em;
+	}
+
+	@media screen and (max-width: 500px){
+
+		.navbar-brand img{
+			width: 45%;
+		}
+
+		#bootstrap-overrides .carousel {
+		margin-top: 3em;
+		}
+
+		
+	}
+}
+
+
+#bootstrap-overrides .navbar-inverse #bootstrap-overrides .navbar-nav > #bootstrap-overrides li.active > a:hover,
+#bootstrap-overrides .navbar-inverse #bootstrap-overrides .navbar-nav > #bootstrap-overrides li.active > a:focus,
+#bootstrap-overrides .navbar-inverse #bootstrap-overrides .navbar-nav > #bootstrap-overrides li.active > a:active {
+  color: #e7b315;
+  background-color: transparent;
+}
+
+#bootstrap-overrides .jumbotron{
+	width: 100%;
+}
+
+#bootstrap-overrides .widget, .row{
+	background-color: transparent;
+}
+
+#bootstrap-overrides footer{
+	 height: auto;
+	 margin-top: 2em;
+}
+
+#bootstrap-overrides h1, h2, h3{
+	font-family: "Times New Roman", Times, serif;
+}
+
+ .mg-instagram > li {
+    width: 25%;
+  }
+
+  #bootstrap-overrides .custom-date{
+  	background-color:  #16262e;
+  	height: auto;
+  	width: 100%;
+  	color: #e7b315;
+  	padding-bottom: 6em;
+  }
+
+#bootstrap-overrides .pick-dates{
+	/*background-color: red;*/
+	width: 95%;
+	margin: 0 auto;
+	height: auto;
+	position: relative;
+	top: 2em;
+	padding: .5em;
+	color: #e7b315;
+}
+
+#bootstrap-overrides .mg-copyright li{
+	list-style-type: none;
+	display: inline;
+	padding: 1em;
+	
+}
+
+#bootstrap-overrides .mg-copyright {
+	width: 100%;
+	background: #132027;
+	height: auto;
+	padding: 1em;
+	margin-left: -3.7em;
+}
+
+#bootstrap-overrides .cs-select{
+	background-color:  #16262e;
+	border: .1em solid #fff;
+	height: 2.5em;
+	width: 100%; 
+	color: #fff;
+	margin-top: .5em;
+}
+
+#bootstrap-overrides .input-group, 
+#bootstrap-overrides .input-group-addon{
+	border-radius: 0px;
+	margin-top: .5em;
+	background-color: #e7b315;
+	color: #fff;
+}
+
+#bootstrap-overrides input.form-control{
+	background-color:  #16262e;
+	height: 2.5em;
+	color: #fff;
+	border-radius: 0;
+}
+
+
+#bootstrap-overrides button, #bootstrap-overrides .widget .btn{
+	background-color: #e7b315;
+	color: #fff;
+	margin-top: .5em;
+	font-family: "Playfair Display", serif;
+	border-radius: 0px;
+}
+
+#bootstrap-overrides input.form-control::-webkit-input-placeholder {
+   color: #fff;
+}
+
+#bootstrap-overrides input.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+#bootstrap-overrides input.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+#bootstrap-overrides input.form-control:-ms-input-placeholder {  
+   color: #fff; 
+}
+
+#bootstrap-overrides .datepicker{
+	background-color:  #16262e;
+}
+
+#bootstrap-overrides .mg-sec-title{
+	color: #16262e;
+}
+
+
+
+/*#bootstrap-overrides .hover-img{
+	position: relative;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #16262e;
+	border-radius: 0;
+}*/
+
+#bootstrap-overrides .well{
+	border-radius: 0;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #16262e;
+	color: #16262e;
+
+}
+
+#bootstrap-overrides .hover-img h2{
+	position: absolute;
+	top: .5em;
+	color: #fff;
+	background-color: #16262e;
+	opacity: .7;
+}
+
+
+#bootstrap-overrides .mg-footer-social li{
+	display: inline;
+	font-size: 200%;
+	padding-right: .3em;
+	position: relative;
+	left: -1.5em;
+}
+
+/*#bootstrap-overrides .hover-img img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); 
+    -moz-transform:scale(1.20); 
+    -ms-transform:scale(1.20); 
+    -o-transform:translatZ(0) scale(1.20); 
+    transform:translatZ(0) scale(1.20);
+}*/
+
+
+/*---------------Payment Form------------------------*/
+
+
+#bootstrap-overrides .container .form-width{
+	/*margin-top: 8em;*/
+	margin-bottom: 1em;
+	width: 100%;
+	border: 2px solid #e7b315;
+	padding: 1em;
+	background-color: #16262e;
+	color: #e7b315;
+}
+
+#bootstrap-overrides .form-width input,
+#bootstrap-overrides .form-width select{
+	background-color: #fff;
+	color: #fff;
+	border-radius: 0;
+	border-color: #fff;
+}
+
+#bootstrap-overrides .form-width span{
+	color: #e7b315;
+}
+
+#bootstrap-overrides .container form{
+	position: relative;
+}
+
+#bootstrap-overrides #sign-in{
+	position: absolute;
+	left: 75%;
+	top: 7%;
+}
+
+#bootstrap-overrides .form-width button span{
+	color: #fff
+}
+
+#bootstrap-overrides .form-width label {
+	color: #fff;
+}
+
+#bootstrap-overrides .form-group input,
+#bootstrap-overrides .form-group select{
+	background-color: #16262e;
+}
+
+#bootstrap-overrides .white-background{
+	background-color: #fff;
+	min-height: 10em;
+	border: 1px solid #16262e;
+}
+
+#bootstrap-overrides .lower-mg-top{
+	margin-top: -2em;
+	margin-bottom: -4em;
+}
+
+#bootstrap-overrides .complete-book{
+	border: 2px solid #e7b315;
+	color: #e7b315;
+	height: 38.6em;
+	padding: 1em;
+	background-color: #16262e;
+}
+
+#bootstrap-overrides .complete-book img {
+	border: 1px solid #e7b315;
+}
+
+#bootstrap-overrides .complete-book img{
+	width: 100%;
+
+}
+
+
+/*available rooms page------------------*/
+
+#bootstrap-overrides .available-rooms{
+	width: 60%;
+	height: auto;
+	margin-top: 6em;
+	border: 1px solid grey;
+	
+}
+
+#bootstrap-overrides .available-rooms-header img{
+	float: left;
+	width: 20%; /*FIX*/
+	margin-right: 1em;
+}
+
+#bootstrap-overrides .available-rooms-header span{
+	color: #87c72d;
+}
+
+#bootstrap-overrides .available-rooms-header p{
+	margin-top: .5em;
+	font-size: .9em;
+}
+
+#bootstrap-overrides .available-rooms-header h1,
+#bootstrap-overrides .available-rooms-header h2{
+	margin-top: 0em;
+	padding-top: .5em;
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+
+#bootstrap-overrides .available-rooms-container{
+	padding: .5em;
+}
+
+#bootstrap-overrides .available-rooms-selections{
+	margin-top: .2em;
+	/*border: 1px solid #e7b315;*/
+	padding: 0;
+	height: 4.5em;
+}
+
+#bootstrap-overrides .available-rooms-selections img{
+	float: left;
+	width: 12%;
+	margin-right: 1em;
+}
+
+#bootstrap-overrides .available-rooms-selections-price{
+	float: right;
+	background-color: #16262e;
+	width: 15em;
+	height: 4.3em;
+}
+
+#bootstrap-overrides .available-rooms-selections-price span{
+	color: #fff;
+	display: inline-block;
+	margin-top: 1.5em;
+	margin-left: 1.8em;
+}
+
+#bootstrap-overrides .available-rooms-selections-price:hover{
+	background-color: grey;
+}
+
+#bootstrap-overrides .available-rooms-selections-price button{
+	float: right;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+#bootstrap-overrides .available-rooms-selections-price .bookButton{
+	float: right;
+	margin-right: 1em;
+	width: 6.1em;
+	height: 2.5em;
+	background-color: #e7b315;
+	color: #fff;
+	margin-top: 1em;
+	font-family: "Playfair Display", serif;
+	border-radius: 0px;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+#bootstrap-overrides .available-rooms-selections-price .middle{
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	bottom: 1em;
+	right: 1.8em;
+}
+
+#bootstrap-overrides .surround{
+	float: left;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+}
+
+#bootstrap-overrides .avail-span{
+	color: #87c72d;
+}
+
+#bootstrap-overrides .show{
+	position: relative;
+	left: 84%;
+	margin-bottom: .5em;
+}
+
+#bootstrap-overrides .with-breakfast{
+	margin-top: 1em;
+}
+
+#bootstrap-overrides .morecontent span {
+    display: none;
+    color: #16262e;
+}
+#bootstrap-overrides .morelink {
+    display: block;
+    color: grey;
+}
+
+/*Booking Page------------------------*/
+
+#bootstrap-overrides textarea {
+	width: 50%;
+	float: right;
+	margin-top: -2em;
+}
+
+#bootstrap-overrides button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*
+CustomerSearch-------------------------------*/
+
+#bootstrap-overrides .customerSearch {
+	overflow: hidden;
+	position: relative;
+}
+
+#bootstrap-overrides .customerSearch button {
+	position: absolute;
+	right: 10em;
+}
+
+#bootstrap-overrides .SearchHeading{
+	margin-top: 3em;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+
+#bootstrap-overrides .scrollable{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 13.5em;
+	margin-top: 1em;
+	border-bottom: 1px solid #fff;
+	/*margin-bottom: 3em;*/
+}
+
+#bootstrap-overrides .searchQuery{
+	/*background-color: red;*/
+	width: 100%;
+	min-height: 2em;
+	border-bottom: 1px solid #fff;
+	color: #fff;	
+}
+
+#bootstrap-overrides .leftForm {
+	height: 36.6em;
+}
+
+#bootstrap-overrides .formRight{
+	min-height: 36.6em;
+}
